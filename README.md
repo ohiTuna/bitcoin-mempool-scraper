@@ -29,5 +29,6 @@ Basicaly this scraper is the data that is visualized here: https://tradeblock.co
 $ go run $GOPATH/bitcoin-mempool-scraper/tbkmempool.go
 program will run, write, and close automatically---i.e. requires no user input.
 
-requires Go! (golang)
+requires Go! (golang)      
+
 see: http://golang.org
