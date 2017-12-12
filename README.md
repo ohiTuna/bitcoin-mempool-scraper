@@ -1,3 +1,7 @@
+#
+windows binary now available 
+I've built a windows binary for users without Go installed. I've only tested it on my system so **I would greatly appreciate users without go installed letting me know if it worked.** It should simply run, exit, and have a .csv file created in the same dir as where your .exe is located
+
 
 ## Tradeblock mempool scraper
 
@@ -19,6 +23,8 @@ Basicaly this scraper is the data that is visualized here: https://tradeblock.co
 **Two**, remember that Tradeblock is like any other node and will 'count' thier mempool differently. Some nodes will hold on to txs for 72 hours with no min fee, others will only count txs as in the mempool fo 48 hours and only if the fee is >X sat/byte. 
 
 ## updates
+ version 0.30
+ - windows binary exe now available (needs user testing)
  version 0.20
  - now includes excel formatted timestamp at end
  - column headers
